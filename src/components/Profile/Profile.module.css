@@ -1,0 +1,67 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+.description {
+    width: 500px;
+    background-color: aliceblue;
+    border: 3px solid #ffffff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+.avatar {
+    width: 350px;
+    background-color: aliceblue;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 35px;
+    color: rgb(85, 85, 85);
+}
+
+.tag {
+    font-size: 20px;
+    color: rgb(132, 0, 255);
+}
+
+.location {
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+}
+
+.stats {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aliceblue;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 3px solid #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stats>li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
