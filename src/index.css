@@ -1,7 +1,7 @@
 @import-normalize;
 
 body {
-  font-family: sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 1.5;
   background-color: aqua;
 }
@@ -20,7 +20,7 @@ ul,
 ol {
   margin: 0;
   padding: 0;
-  text-decoration: none;
+  list-style: none;
 }
 
 img {
