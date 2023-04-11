@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction_history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 179, 179);
+    width: auto;
+    padding: 5px;
+    border-radius: 25px;
+    border: 3px solid #ffffff;
+    margin-top: 40px;
+}
+
+.column {
+    width: 150px;
+    border-radius: 25px;
+    background-color: rgb(100, 100, 100);
+    
+}
+
+.line {
+    display: flex;
+    width: auto;
+    gap: 5px;
+}
+
+.value {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
