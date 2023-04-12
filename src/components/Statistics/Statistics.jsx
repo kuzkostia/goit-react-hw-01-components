@@ -13,7 +13,11 @@ export function Statistics({ title, stats }) {
 
         <ul className={css.stat_list}>
           {stats.map(stat => (
-              <li key={stat.id} className={css.item} style={{backgroundColor: RandomColor()}} >
+            <li
+              key={stat.id}
+              className={css.item}
+              style={{ backgroundColor: RandomColor() }}
+            >
               <span className={css.label}>{stat.label}</span>
               <span className={css.percentage}>{stat.percentage}%</span>
             </li>
@@ -26,5 +30,11 @@ export function Statistics({ title, stats }) {
 
 Statistics.propTypes = {
   title: PropTypes.string.isRequired,
-  stats: PropTypes.array.isRequired,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    })
+  ).isRequired,
 };
